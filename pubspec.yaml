@@ -1,0 +1,35 @@
+name: ankush_bichewar_centralogic_assinment
+description: "A Movie Application"
+publish_to: 'none' # This prevents publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.3
+  shared_preferences: ^2.1.0
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^5.1.1
+  smooth_page_indicator: ^1.2.1
+  share_plus: ^7.2.1
+  connectivity_plus: ^6.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/movies.json
+    - assets/images/
+    - assets/icons/
